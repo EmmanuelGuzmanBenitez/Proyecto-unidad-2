@@ -1,0 +1,19 @@
+#principal {
+    -fx-background-color: #B2FA84;
+}
+
+#agregarReceta {
+    -fx-background-color: #6CEECB;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 300px;
+}
+
+#detalleReceta {
+    -fx-background-color: #5CE9F5 ;
+    -fx-pref-width: 600px;
+    -fx-pref-height: 500px;
+}
+
+#recetasListView {
+    -fx-background-color: #D1FFCC;
+}

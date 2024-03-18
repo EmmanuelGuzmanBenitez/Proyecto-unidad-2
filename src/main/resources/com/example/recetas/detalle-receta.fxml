@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.*?>
+
+<VBox alignment="CENTER" spacing="10.0" stylesheets="@estilo.css" fx:id="detalleReceta" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.recetas.DetalleRecetaController">
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+    <Label fx:id="nombreLabel" text="Nombre de la Receta"/>
+    <Label fx:id="ingredientesLabel" text="Ingredientes"/>
+    <Label fx:id="instruccionesLabel" text="Instrucciones"/>
+    <ImageView fx:id="imagenRecetaView" fitWidth="200" fitHeight="200" preserveRatio="true" />
+</VBox>
